@@ -17,7 +17,7 @@ import com.amazonaws.services.lambda.runtime.events.S3Event;
 import com.amazonaws.services.s3.event.S3EventNotification.S3EventNotificationRecord;
 
 /**
- * AWS Lambda function with S3 trigger.
+ * This class is a AWS Lambda function which triggers based on PUT and DELETE in the source bucket.
  * 
  */
 public class App implements RequestHandler<S3Event, String> {
